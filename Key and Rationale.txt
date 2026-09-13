@@ -6,6 +6,53 @@ Thought Process:
 4. s2-m6 and m6-e1 may not be unrelated pairs. Together they can be a 3-letter chain s2-m6-e1
 
 Guessing s2-m6-e1
-- Could be "the" or "ing" or "and" but this trigram isn't even in the top 10 while "the" "and"
-are supposed to be common so maybe it is "ing" that means s2=i, m6=n, e1=g
-- However this cipher works by mapping letters to multiple homophones, so it cant just be one trigram
+- Could be "the" or "ing" or "and" but this trigram isn't even in the top 10 while "the" and
+  "and" are supposed to be common so maybe it is "ing" that means s2=i, m6=n, e1=g
+- However this cipher works by mapping letters to multiple homophones, so it cant just be one
+  trigram. "the" can show up as many different homophone triples, so not being in top 10 does
+  not rule out "the"
+
+Best reading of the chain
+- s2-m6 is very common and m6-e1 is very common
+- In English the most common bigrams are "th" and "he"
+- So s2-m6 = th and m6-e1 = he, which means s2-m6-e1 = the
+- Therefore s2=t, m6=h, e1=e
+
+Same idea for the top trigram
+- m3-b6-p0 is the #1 trigram and m3-b6 is also a top bigram
+- So m3-b6-p0 = the as well, just different homophones for the same letters
+- Therefore: m3=t, b6=h, p0=e
+- Also l8-m3 is very common and l8-m3-p0 is top 3 trigram -> "at" and "ate" so l8=a
+
+Checking with other top bigrams
+- i7-t1 is tied for #1 bigram. Also looks like "th" with another t/h pair
+  so i7=t, t1=h
+- c6-j9 and j9-c6 are both huge (both directions). That fits "er" and "re"
+  so c6=e, j9=r
+- d8 sits in the middle of many top trigrams (m4-d8-a8, a8-d8-a9, k4-d8-m1).
+  Middle of common 3-letter patterns is often e, so d8=e
+
+Word cribs that line up with the above
+- Opening word b3|j6|p5 with t/h/e available -> "the" so b3=t, j6=h, p5=e
+- s0|b6|q7 and s0|b6|y3 look like "she", and with 's after -> "she's"
+  so s0=s, q7=e, y3=e, and the s after the apostrophe g2=s
+- p1|m3|b6|p0|k4|q0 = o-t-h-e-r-s -> "others"
+  so p1=o, k4=r, q0=s
+- i7|t1|v9|b3|'|w6 = t-h-a-t-'s -> "that's"
+  so v9=a, w6=s (i7/t1/b3 already t/h/t)
+
+Key guess
+a: l8, v9
+e: p0, e1, p5, q7, y3, d8, c6
+h: b6, m6, j6, t1
+o: p1
+r: k4, j9
+s: s0, g2, q0, w6
+t: m3, s2, b3, i7
+
+Other homophones exist for these letters and for the rest of the alphabet
+this is the high-confidence part from bigrams/trigrams
+
+Rationale in one line
+- Top bigrams give th/he/er/re, top trigram gives the/ate, and those guesses stay consistent
+  on real words like the, she, she's, others, that's.
