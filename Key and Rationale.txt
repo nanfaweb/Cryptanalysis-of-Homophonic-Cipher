@@ -1,0 +1,11 @@
+Thought Process:
+
+1. s2-m6 and m6-e1 both have m6, and i7-t1 and c6-j9 have the highest frequencies
+2. m3-b6-p0 has highest frequency, m3 and p0 appear in the top 3 trigrams as well
+3. Individual homophones that are common are m3, p0 in trigrams and m6, c6 in bigrams
+4. s2-m6 and m6-e1 may not be unrelated pairs. Together they can be a 3-letter chain s2-m6-e1
+
+Guessing s2-m6-e1
+- Could be "the" or "ing" or "and" but this trigram isn't even in the top 10 while "the" "and"
+are supposed to be common so maybe it is "ing" that means s2=i, m6=n, e1=g
+- However this cipher works by mapping letters to multiple homophones, so it cant just be one trigram
